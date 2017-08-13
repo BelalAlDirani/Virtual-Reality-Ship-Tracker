@@ -434,25 +434,26 @@
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
      <Compile Include="Assets\NewBehaviourScript.cs" />
      <Compile Include="Assets\NewBehaviourScript1.cs" />
-     <Compile Include="Assets\Scripts\Buoyancy.cs" />
-     <Compile Include="Assets\Scripts\CanvasAtUser.cs" />
-     <Compile Include="Assets\Scripts\Fly.cs" />
-     <Compile Include="Assets\Scripts\GetAPIData.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship1.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship2.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship3.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship4.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\jsonReader.cs" />
-     <Compile Include="Assets\Scripts\LevelLoader.cs" />
-     <Compile Include="Assets\Scripts\MenuGaze.cs" />
-     <Compile Include="Assets\Scripts\MoveScript.cs" />
-     <Compile Include="Assets\Scripts\RasterMap.cs" />
-     <Compile Include="Assets\Scripts\ShipDatabase.cs" />
-     <Compile Include="Assets\Scripts\TF4.cs" />
-     <Compile Include="Assets\Scripts\WelcomeDisappear.cs" />
-     <Compile Include="Assets\Scripts\gameController.cs" />
-     <Compile Include="Assets\Scripts\parseJSON.cs" />
-     <Compile Include="Assets\Scripts\shipController.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\Buoyancy.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\CanvasAtUser.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\Fly.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\RasterMap.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\WelcomeDisappear.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\gameController.cs" />
+     <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship1.cs" />
+     <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship2.cs" />
+     <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship3.cs" />
+     <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship4.cs" />
+     <Compile Include="Assets\Scripts\Json Testing\Json Scripts\jsonReader.cs" />
+     <Compile Include="Assets\Scripts\Json Testing\loadAllAPIData.cs" />
+     <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\GetAPIData.cs" />
+     <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\MenuGaze.cs" />
+     <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\MoveScript.cs" />
+     <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\ShipDatabase.cs" />
+     <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\TF4.cs" />
+     <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\parseJSON.cs" />
+     <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\shipController.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
@@ -504,14 +505,14 @@
  <Reference Include="UnityEngine.VR">
  <HintPath>C:/Program Files/Unity 5.6.0b11/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
+ <Reference Include="Mapbox.Json">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+ </Reference>
  <Reference Include="Google.ProtocolBuffers">
  <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
  <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Plugins/LitJson.dll</HintPath>
- </Reference>
- <Reference Include="Mapbox.Json">
- <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity 5.6.0b11/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
