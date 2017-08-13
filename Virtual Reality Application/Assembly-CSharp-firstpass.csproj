@@ -6,7 +6,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{C5848570-EF67-5AF7-0300-00A669AA32AC}</ProjectGuid>
+    <ProjectGuid>{FF70D735-9C49-2877-85EF-9649585D7CBF}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp-firstpass</AssemblyName>
@@ -59,15 +59,17 @@
      <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\Mapbox\Fonts\OpenSansLic.txt" />
+     <None Include="Assets\Mapbox\README.txt" />
      <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
      <None Include="Assets\Standard Assets\Environment\Water\Water4\Shaders\FXWater4Simple.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrAdditiveOverlay.shader" />
      <None Include="Assets\GoogleVR\Demos\Environment\DemoEnvUnlitGrayscale.shader" />
-     <None Include="Assets\Boomlagoon\JSON\Readme.txt" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlay.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTransparentOverlayColor.shader" />
      <None Include="Assets\Standard Assets\Environment\Water (Basic)\Shaders\FXWaterBasic.shader" />
      <None Include="Assets\Standard Assets\CrossPlatformInput\CrossPlatformInputGuidelines.txt" />
+     <None Include="Assets\Mapbox\Core\Plugins\link.xml" />
      <None Include="Assets\GoogleVR\Demos\Shaders\GVRDemo\GVRDemoAmbientOcclusion.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnlitTextureOverlay.shader" />
      <None Include="Assets\API Buddy\attribution.txt" />
@@ -105,10 +107,13 @@
  <HintPath>C:/Program Files/Unity 5.6.0b11/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/b_dir/Desktop/Latrobe Univeristy 2017 SEM - 2/CSE3PRB/Pivot Maritime VR App/Virutal Reality Scene/Virtual Reality Scene/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>C:/Users/b_dir/Desktop/Latrobe Univeristy 2017 SEM - 2/CSE3PRB/Pivot Maritime VR App/Virutal Reality Scene/Virtual Reality Scene/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Plugins/LitJson.dll</HintPath>
+ </Reference>
+ <Reference Include="Mapbox.Json">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>C:/Program Files/Unity 5.6.0b11/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
