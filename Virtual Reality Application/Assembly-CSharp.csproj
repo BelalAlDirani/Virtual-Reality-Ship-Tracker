@@ -53,7 +53,6 @@
      <Compile Include="Assets\API Buddy\OAuth\InstagramCallbackServer.cs" />
      <Compile Include="Assets\API Buddy\OAuth\OAuthCallbackServer.cs" />
      <Compile Include="Assets\API Buddy\Third Party\SimpleJSON\SimpleJSON.cs" />
-     <Compile Include="Assets\GameController2.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoInputManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\DemoSceneManager.cs" />
      <Compile Include="Assets\GoogleVR\Demos\Scripts\GVRDemo\GVRDemoManager.cs" />
@@ -432,31 +431,6 @@
      <Compile Include="Assets\Mapbox\Unity\Utilities\Singleton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
-<<<<<<< HEAD
-     <Compile Include="Assets\Scripts\Buoyancy.cs" />
-     <Compile Include="Assets\Scripts\CanvasAtUser.cs" />
-     <Compile Include="Assets\Scripts\Fly.cs" />
-     <Compile Include="Assets\Scripts\FlyEnabled.cs" />
-     <Compile Include="Assets\Scripts\GetAPIData.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship1.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship2.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship3.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\Ship4.cs" />
-     <Compile Include="Assets\Scripts\Json Scripts\jsonReader.cs" />
-     <Compile Include="Assets\Scripts\LevelLoader.cs" />
-     <Compile Include="Assets\Scripts\MenuGaze.cs" />
-     <Compile Include="Assets\Scripts\MoveScript.cs" />
-     <Compile Include="Assets\Scripts\RasterMap.cs" />
-     <Compile Include="Assets\Scripts\ShipDatabase.cs" />
-     <Compile Include="Assets\Scripts\TF4.cs" />
-     <Compile Include="Assets\Scripts\WelcomeDisappear.cs" />
-     <Compile Include="Assets\Scripts\gameController.cs" />
-     <Compile Include="Assets\Scripts\loadAllAPIData.cs" />
-     <Compile Include="Assets\Scripts\parseJSON.cs" />
-     <Compile Include="Assets\Scripts\shipController.cs" />
-=======
-     <Compile Include="Assets\NewBehaviourScript.cs" />
-     <Compile Include="Assets\NewBehaviourScript1.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\Buoyancy.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\CanvasAtUser.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\Fly.cs" />
@@ -464,12 +438,12 @@
      <Compile Include="Assets\Scripts\Current Scripts\RasterMap.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\WelcomeDisappear.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\gameController.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\loadAllAPIData.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship1.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship2.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship3.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship4.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\jsonReader.cs" />
-     <Compile Include="Assets\Scripts\Json Testing\loadAllAPIData.cs" />
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\GetAPIData.cs" />
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\MenuGaze.cs" />
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\MoveScript.cs" />
@@ -477,7 +451,6 @@
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\TF4.cs" />
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\parseJSON.cs" />
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\shipController.cs" />
->>>>>>> 8a13af627614c0d958e45bee797e48cc9918100a
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
