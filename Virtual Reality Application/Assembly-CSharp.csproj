@@ -435,6 +435,7 @@
      <Compile Include="Assets\Scripts\Current Scripts\CanvasAtUser.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\Fly.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\LevelLoader.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\PlaylistMenu.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\RasterMap.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\WelcomeDisappear.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\gameController.cs" />
