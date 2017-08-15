@@ -23,16 +23,16 @@ public class PlaylistMenu : MonoBehaviour {
 
 	}
 
-	//private string _outputText = "";
+    //private string _outputText = "";
 
 
-	private void OnGUI()
+    /*private void OnGUI()
 	{
 		toolbarInt = GUI.Toolbar(new Rect(50, 50, 250, 60), toolbarInt, listPlaylist);
 	}
 
 
-	/*private void OnGUI()
+	private void OnGUI()
 	{
 		RequestPlaylistData (); 
 
@@ -44,7 +44,7 @@ public class PlaylistMenu : MonoBehaviour {
 		GUI.TextArea(new Rect(20.0f, 100.0f, 500.0f, 400.0f), _outputText);
 	}*/
 
-	/*private void OnGUI() {
+    /*private void OnGUI() {
 		if (GUI.Button (new Rect (20.0f, 20.0f, 200.0f, 50.0f), "Request Playlist Data")) {
 			RequestPlaylistData ();
 		}
@@ -52,8 +52,8 @@ public class PlaylistMenu : MonoBehaviour {
 		GUI.TextArea(new Rect(20.0f, 100.0f, 500.0f, 400.0f), _outputText);
 	}*/
 
-//private void OnGUI(){
-	private void RequestPlaylistData() {
+    //private void OnGUI(){
+    private void RequestPlaylistData() {
 		string url = "http://homepage.cs.latrobe.edu.au/16maritime01/api/v5/playlists.php?passwd=dJHSRzhqu4";
 		APIBuddy.GetInstance().SendGetRequest<Playlists> (url, 20.0f, (bool success, string errorMessage, int statusCode, object responseObject) => {
 			if (success) {
