@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class NewBehaviourScript1 : MonoBehaviour {
+public class FlyEnabled : MonoBehaviour {
 
     public GameObject cameraFly;
     // Use this for initialization

@@ -40,8 +40,8 @@ MonoBehaviour:
     y: 502
     width: 1220
     height: 455
-  m_MinSize: {x: 102, y: 121}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 100, y: 100}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 17}
   m_Panes:
   - {fileID: 19}
@@ -68,10 +68,10 @@ MonoBehaviour:
     y: 0
     width: 1220
     height: 957
-  m_MinSize: {x: 200, y: 321}
-  m_MaxSize: {x: 4002, y: 8021}
+  m_MinSize: {x: 202, y: 342}
+  m_MaxSize: {x: 4002, y: 8042}
   vertical: 1
-  controlID: 11
+  controlID: 149
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -117,10 +117,10 @@ MonoBehaviour:
     y: 0
     width: 488
     height: 957
-  m_MinSize: {x: 277, y: 342}
-  m_MaxSize: {x: 10002, y: 14042}
+  m_MinSize: {x: 275, y: 321}
+  m_MaxSize: {x: 10002, y: 14021}
   vertical: 1
-  controlID: 138
+  controlID: 11
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -166,9 +166,9 @@ MonoBehaviour:
     width: 1920
     height: 957
   m_MinSize: {x: 677, y: 342}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
-  controlID: 9
+  controlID: 147
 --- !u!114 &8
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -187,8 +187,8 @@ MonoBehaviour:
     y: 0
     width: 488
     height: 577
-  m_MinSize: {x: 277, y: 71}
-  m_MaxSize: {x: 4002, y: 4021}
+  m_MinSize: {x: 275, y: 50}
+  m_MaxSize: {x: 4000, y: 4000}
   m_ActualView: {fileID: 16}
   m_Panes:
   - {fileID: 16}
@@ -217,9 +217,9 @@ MonoBehaviour:
     width: 1920
     height: 957
   m_MinSize: {x: 677, y: 342}
-  m_MaxSize: {x: 18004, y: 14042}
+  m_MaxSize: {x: 18004, y: 14021}
   vertical: 0
-  controlID: 10
+  controlID: 148
 --- !u!114 &10
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -267,7 +267,7 @@ MonoBehaviour:
     y: 0
     width: 1920
     height: 1007
-  m_MinSize: {x: 950, y: 392}
+  m_MinSize: {x: 950, y: 300}
   m_MaxSize: {x: 10000, y: 10000}
 --- !u!114 &12
 MonoBehaviour:
@@ -458,20 +458,20 @@ MonoBehaviour:
     m_ShowAllHits: 0
     m_SearchArea: 0
     m_Folders:
-    - Assets
+    - Assets/Scripts
   m_ViewMode: 1
   m_StartGridSize: 41
   m_LastFolders:
-  - Assets
+  - Assets/Scripts
   m_LastFoldersGridSize: 41
   m_LastProjectPath: C:\Users\b_dir\Desktop\Pivot Maritime VR Application\VR Ship
     Tracker Mobile Application\Virtual Reality Application
   m_IsLocked: 0
   m_FolderTreeState:
-    scrollPos: {x: 0, y: 95}
-    m_SelectedIDs: 7c270000
-    m_LastClickedID: 10108
-    m_ExpandedIDs: 000000007c270000aa270000ba270000dc270000142800005028000062280000ce28000040290000762900008629000096290000c2290000d2290000de290000f8290000282a0000b42a0000fe2a0000d22b0000e02b00004e2e0000502e0000522e0000542e0000562e0000582e00005a2e00005c2e00005e2e0000602e0000622e0000642e0000662e0000682e0000e8390000ee390000f2390000343a0000403a00006e3a0000d63a000000ca9a3bffffff7f
+    scrollPos: {x: 0, y: 1242}
+    m_SelectedIDs: aa390000
+    m_LastClickedID: 14762
+    m_ExpandedIDs: 0000000074390000aa390000dc3900001e3a0000803a0000e43a0000f83a00007a3b0000883b00008c3b00009a3b0000543c0000a83c0000be3c0000e43c0000183d00003c3d0000403d0000563d0000763d0000a63d0000fa3d00004e3e0000183f0000923f0000e0400000ea4000000c4100009c4100009e410000a0410000a2410000a4410000a6410000a8410000aa410000ac410000ae410000b0410000b2410000b4410000b641000000ca9a3bffffff7f
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -499,7 +499,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000007c270000aa270000ba270000dc270000142800005028000062280000ce28000040290000762900008629000096290000c2290000d2290000de290000f8290000282a0000b42a0000fe2a0000d22b0000e02b00004e2e0000502e0000522e0000542e0000562e0000582e00005a2e00005c2e00005e2e0000602e0000622e0000642e0000662e0000682e0000
+    m_ExpandedIDs: 0000000074390000aa390000dc3900001e3a0000803a0000e43a0000f83a00007a3b0000883b00008c3b00009a3b0000543c0000a83c0000be3c0000e43c0000183d00003c3d0000403d0000563d0000763d0000a63d0000fa3d00004e3e0000183f0000923f0000e0400000ea4000000c4100009c4100009e410000a0410000a2410000a4410000a6410000a8410000aa410000ac410000ae410000b0410000b2410000b4410000b6410000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -588,8 +588,8 @@ MonoBehaviour:
   m_ZoomArea:
     m_HRangeLocked: 0
     m_VRangeLocked: 0
-    m_HBaseRangeMin: -609
-    m_HBaseRangeMax: 609
+    m_HBaseRangeMin: -333.6
+    m_HBaseRangeMax: 333.6
     m_VBaseRangeMin: -208.5
     m_VBaseRangeMax: 208.5
     m_HAllowExceedBaseRangeMin: 1
@@ -689,7 +689,7 @@ MonoBehaviour:
   m_Rotation:
     m_Target: {x: 0.16535999, y: 0.14739467, z: -0.025000935, w: 0.97483635}
     speed: 2
-    m_Value: {x: 0.16535999, y: 0.14739467, z: -0.025000935, w: 0.97483635}
+    m_Value: {x: -0.16535997, y: -0.14739466, z: 0.025000934, w: -0.97483635}
   m_Size:
     m_Target: 54.4656
     speed: 2
@@ -732,9 +732,9 @@ MonoBehaviour:
     height: 936
   m_TreeViewState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 963fffff
-    m_LastClickedID: -49258
-    m_ExpandedIDs: 963fffff3cdbffffd8fbffffdafbffff00000000
+    m_SelectedIDs: 3c080000
+    m_LastClickedID: 0
+    m_ExpandedIDs: 30e1ffff88e3ffff06ebffff00000000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -753,7 +753,7 @@ MonoBehaviour:
       m_ClientGUIView: {fileID: 6}
     m_SearchString: 
   m_ExpandedScenes:
-  - Mapbox test
+  - VRMain
   m_CurrenRootInstanceID: 0
   m_Locked: 0
   m_CurrentSortingName: TransformSorting
