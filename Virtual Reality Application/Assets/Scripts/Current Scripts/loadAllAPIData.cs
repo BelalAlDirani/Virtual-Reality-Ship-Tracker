@@ -1,20 +1,18 @@
-﻿using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-using PerspecDev; //API Buddy utilization 
+using PerspecDev; 
 
 public class loadAllAPIData : MonoBehaviour {
 
-	
-	//its is broken up into each API file which is loaded
 
 	//playlists 
 	public class Playlists : APIBuddy.WebResponseData {
-		public PlaylistData[] entries; //the word entries cannot be changed
+		public PlaylistData[] entries;
 	}
 
 	public class PlaylistData : APIBuddy.WebResponseData {
-		//names of the variables to be loaded
+
 		public string idplaylist; 
 		public string name; 
 
@@ -34,11 +32,10 @@ public class loadAllAPIData : MonoBehaviour {
 
 	private void RequestPlaylistData() {
 		string url = "http://homepage.cs.latrobe.edu.au/16maritime01/api/v5/playlists.php?passwd=dJHSRzhqu4";
-		//connect to API Buddy and retrieve the data
 		APIBuddy.GetInstance().SendGetRequest<Playlists> (url, 20.0f, (bool success, string errorMessage, int statusCode, object responseObject) => {
 			if (success) {
 
-				Playlists playlists = (Playlists)responseObject; //save it 
+				Playlists playlists = (Playlists)responseObject; 
 				//loop for all the playlist data which will be outputted to the text area
 				/*_outputText = "";
 
@@ -289,7 +286,6 @@ public class loadAllAPIData : MonoBehaviour {
 
 	}
 
-	//retrieve all data 
 	private void RequestAllData()
 	{
 		RequestPlaylistData();
@@ -302,7 +298,7 @@ public class loadAllAPIData : MonoBehaviour {
 
 	}
 		
-//do the whole program
+
 	void Start () {
 		RequestPlaylistData (); 
 	}
