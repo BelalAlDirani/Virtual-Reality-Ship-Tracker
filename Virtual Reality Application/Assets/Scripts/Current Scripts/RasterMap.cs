@@ -10,7 +10,7 @@ public class RasterMap : MonoBehaviour, Mapbox.Utils.IObserver<RasterTile>
         var map = new Map<RasterTile>(MapboxAccess.Instance);
         map.Zoom = 2;
         map.Vector2dBounds = Vector2dBounds.World();
-        map.MapId = "mapbox://styles/mapbox/streets-v10";
+        map.MapId = "mapbox://styles/belalaldirani/cj6j2sxkl5vjx2rqynq833wpx";
         map.Subscribe(this);
         map.Update();
     }
