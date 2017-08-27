@@ -66,7 +66,13 @@ public class gameController : MonoBehaviour {
                 cameraFly.GetComponent<Fly>().enabled = true;
             }
 
-            
+            if (SceneManager.GetSceneAt(i).name == "Mapbox test")
+            {
+                //Enable the Fly script
+                cameraFly.SetActive(false);
+            }
+
+
         }
     }
 

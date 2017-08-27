@@ -74,6 +74,7 @@
      <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
      <None Include="Assets\GoogleVR\Shaders\GvrUIOverlayFont.shader" />
+     <None Include="Assets\Editor\GitHub\CREDITS.txt" />
      <None Include="Assets\Mapbox\Fonts\OpenSansLic.txt" />
      <None Include="Assets\Mapbox\README.txt" />
      <None Include="Assets\Plugins\Android\proguard-gvr.txt" />
@@ -99,6 +100,7 @@
      <None Include="Assets\API Buddy\README.txt" />
      <None Include="Assets\Plugins\Android\AndroidManifest-Cardboard.xml" />
      <None Include="Assets\GoogleVR\Shaders\GvrUnityCompatibility.cginc" />
+     <None Include="Assets\Editor\GitHub\EULA.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoStereoShader.shader" />
  <Reference Include="UnityEditor.Advertisements">
  <HintPath>C:/Program Files/Unity 5.6.0b11/Editor/Data/UnityExtensions/Unity/Advertisements/Editor/UnityEditor.Advertisements.dll</HintPath>
@@ -162,6 +164,42 @@
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>C:/Program Files/Unity 5.6.0b11/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="AsyncBridge.Net35">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/AsyncBridge.Net35.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Api">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/GitHub.Api.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Logging">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/GitHub.Logging.dll</HintPath>
+ </Reference>
+ <Reference Include="GitHub.Unity">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/GitHub.Unity.dll</HintPath>
+ </Reference>
+ <Reference Include="ICSharpCode.SharpZipLib">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/ICSharpCode.SharpZipLib.dll</HintPath>
+ </Reference>
+ <Reference Include="Mono.Security">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/Mono.Security.dll</HintPath>
+ </Reference>
+ <Reference Include="Octokit">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/Octokit.dll</HintPath>
+ </Reference>
+ <Reference Include="Rackspace.Threading">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/Rackspace.Threading.dll</HintPath>
+ </Reference>
+ <Reference Include="ReadOnlyCollectionsInterfaces">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/ReadOnlyCollectionsInterfaces.dll</HintPath>
+ </Reference>
+ <Reference Include="sfw.net">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/sfw.net.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Net.Http">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/System.Net.Http.dll</HintPath>
+ </Reference>
+ <Reference Include="System.Threading">
+ <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Editor/GitHub/System.Threading.dll</HintPath>
  </Reference>
  <Reference Include="Mapbox.Json">
  <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual Reality Application/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
