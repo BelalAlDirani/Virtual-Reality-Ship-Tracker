@@ -4,45 +4,42 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
 
-public class jsonReader : MonoBehaviour {
+public class jsonReader : MonoBehaviour
+{
 
     string path;
     string jsonstring;
-    private Text aisText;
+    private string aisText = "";
 
     public object ShipDynamicDataList { get; private set; }
 
     void Start()
     {
-       
+
 
         path = Application.streamingAssetsPath + "/shipStatic.json";
         jsonstring = File.ReadAllText(path);
         shipStaticDataList ShipStaticDataList = new shipStaticDataList();
-        JsonUtility.FromJsonOverwrite (jsonstring, ShipStaticDataList);
-        
+        JsonUtility.FromJsonOverwrite(jsonstring, ShipStaticDataList);
+
 
         path = Application.streamingAssetsPath + "/shipDynamic.json";
         jsonstring = File.ReadAllText(path);
         shipDynamicDataList ShipDynamicDataList = new shipDynamicDataList();
         JsonUtility.FromJsonOverwrite(jsonstring, ShipDynamicDataList);
         Debug.Log("Ship 0 LON: " + ShipDynamicDataList.shipDynamic[0].longitude);
-         Debug.Log("Ship 0 LAT: " + ShipDynamicDataList.shipDynamic[0].latitude);
+        Debug.Log("Ship 0 LAT: " + ShipDynamicDataList.shipDynamic[0].latitude);
 
 
-
-
-
+        
+    
         // AIS TEXT CANVAS FOR SHIP[0]
 
-        /*aisText = gameObject.GetComponent<Text>();
-
-        aisText.text = "\n " + "Idmessage : " + ShipDynamicDataList.shipDynamic[0].idmessage
+        //aisText = gameObject.GetComponent<Text>();
+        aisText += "\n " + "Idmessage : " + ShipDynamicDataList.shipDynamic[0].idmessage
              + "\n " + "Idsession: " + ShipDynamicDataList.shipDynamic[0].idsession
-             + "\n " + "Longitude: " + ShipDynamicDataList.shipDynamic[0].longitude
-             + "\n " + "Latitude: " + ShipDynamicDataList.shipDynamic[0].latitude
-             + "\n " + "Latitude: " + ShipDynamicDataList.shipDynamic[0].time_stamp_system
-             +"\n " + "MMSI: " + ShipDynamicDataList.shipDynamic[0].MMSI;*/
+             + "\n " + "COG: " + ShipDynamicDataList.shipDynamic[0].COG
+             +"\n " + "MMSI: " + ShipDynamicDataList.shipDynamic[0].MMSI;
 
 
 
@@ -57,7 +54,7 @@ public class jsonReader : MonoBehaviour {
 
         //lonFloat = (int)((250 / 360.0) * (180 + lonFloat));
 
-        
+
 
         string latString = ShipDynamicDataList.shipDynamic[0].latitude;
         float latFloat = (float)double.Parse(latString);
@@ -66,26 +63,31 @@ public class jsonReader : MonoBehaviour {
 
         //latFloat = (int)((250 / 180.0) * (90 - latFloat));
 
-         float LAT = latFloat * Mathf.PI / 180;
-         float LON = lonFloat * Mathf.PI / 180;
+        float LAT = latFloat * Mathf.PI / 180;
+        float LON = lonFloat * Mathf.PI / 180;
 
-         float x = -r * Mathf.Cos(LAT) * Mathf.Cos(LON);
-         float y = r * Mathf.Sin(LAT);
-         float z = -r * Mathf.Cos(LAT) * Mathf.Sin(LON);
+        float x = -r * Mathf.Cos(LAT) * Mathf.Cos(LON);
+        float y = r * Mathf.Sin(LAT);
+        float z = -r * Mathf.Cos(LAT) * Mathf.Sin(LON);
 
 
-         transform.localPosition = new Vector3(x, y, z);
+        transform.localPosition = new Vector3(x, y, z);
 
-      
-        
 
+
+
+    }
+
+    void OnGUI()
+    {
+        GUI.TextArea(new Rect(20.0f, 100.0f, 500.0f, 400.0f), aisText);
     }
 
     void Update()
     {
-      
 
-        
+
+
     }
 
 }
@@ -152,5 +154,3 @@ public class shipDynamicDataList
 
     public List<shipDynamicData> shipDynamic;
 }
-
-
