@@ -431,6 +431,7 @@
      <Compile Include="Assets\Mapbox\Unity\Utilities\Singleton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\TelemetryConfigurationButton.cs" />
      <Compile Include="Assets\Mapbox\Unity\Utilities\VectorExtensions.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\AppManual.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\Buoyancy.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\CanvasAtUser.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\Fly.cs" />
@@ -439,6 +440,7 @@
      <Compile Include="Assets\Scripts\Current Scripts\ShipPath.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\WelcomeDisappear.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\gameController.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\loadAllAPIData.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship1.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship2.cs" />
      <Compile Include="Assets\Scripts\Json Testing\Json Scripts\Ship3.cs" />
@@ -450,7 +452,6 @@
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\ShipDatabase.cs" />
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\parseJSON.cs" />
      <Compile Include="Assets\Scripts\Outdated,  Nonfunctional Scripts\shipController.cs" />
-     <Compile Include="Assets\Scripts\loadAllAPIData.cs" />
      <None Include="Assets\GoogleVR\Distortion\GvrDistortion.cginc" />
      <None Include="Assets\JSON\readme.txt" />
      <None Include="Assets\GoogleVR\Demos\Shaders\VideoDemo\VideoDemoInsideShader.shader" />
