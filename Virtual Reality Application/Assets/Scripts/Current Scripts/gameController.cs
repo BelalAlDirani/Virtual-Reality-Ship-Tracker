@@ -22,7 +22,7 @@ public class gameController : MonoBehaviour {
 	void Start () {
 
         //start app with BrowsePlaylist scene
-        StartCoroutine(LoadLevel("BrowsePlaylist"));
+        StartCoroutine(LoadLevel("MainMenu"));
 
 		
 	}
