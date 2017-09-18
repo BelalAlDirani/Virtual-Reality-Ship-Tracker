@@ -507,13 +507,13 @@
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Google.ProtocolBuffers">
- <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual-Reality-Ship-Tracker/Tracker Application VR/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
+ <HintPath>C:/Users/b_dir/Desktop/Pivot/Tracker Application VR/Assets/GoogleVR/Plugins/Google.ProtocolBuffers.dll</HintPath>
  </Reference>
  <Reference Include="Mapbox.Json">
- <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual-Reality-Ship-Tracker/Tracker Application VR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
+ <HintPath>C:/Users/b_dir/Desktop/Pivot/Tracker Application VR/Assets/Mapbox/Core/Plugins/ThirdParty/Mapbox.Json/Net35/Mapbox.Json.dll</HintPath>
  </Reference>
  <Reference Include="LitJson">
- <HintPath>C:/Users/b_dir/Desktop/Pivot Maritime VR Application/VR Ship Tracker Mobile Application/Virtual-Reality-Ship-Tracker/Tracker Application VR/Assets/Plugins/LitJson.dll</HintPath>
+ <HintPath>C:/Users/b_dir/Desktop/Pivot/Tracker Application VR/Assets/Plugins/LitJson.dll</HintPath>
  </Reference>
   </ItemGroup>
   <ItemGroup>
