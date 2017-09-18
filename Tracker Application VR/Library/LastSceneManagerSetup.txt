@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/Prototype Scenes/VRMain.unity
+- path: Assets/Scenes/Prototype Scenes/MapBox.unity
   isLoaded: 1
   isActive: 1
