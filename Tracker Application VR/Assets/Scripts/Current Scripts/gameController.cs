@@ -60,7 +60,7 @@ public class gameController : MonoBehaviour {
             }
 
             //if current scene is AISDataCanvas
-            if (SceneManager.GetSceneAt(i).name == "AISDataCanvas")
+            /*if (SceneManager.GetSceneAt(i).name == "AISDataCanvas")
             {
                 //Enable the Fly script
                 cameraFly.GetComponent<Fly>().enabled = true;
@@ -70,7 +70,7 @@ public class gameController : MonoBehaviour {
             {
                 //Enable the Fly script
                 cameraFly.SetActive(false);
-            }
+            }*/
 
 
         }
