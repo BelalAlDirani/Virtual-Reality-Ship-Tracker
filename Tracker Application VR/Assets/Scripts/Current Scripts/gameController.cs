@@ -8,8 +8,8 @@ public class gameController : MonoBehaviour {
     //public for LevelLoader accessability
     public static gameController control;
 
-    //object Fly 
-    public  GameObject cameraFly;
+    //object VR Camera
+    public  GameObject GvrCamera;
 
     //object audioSource
     public GameObject audioSource;
@@ -60,16 +60,24 @@ public class gameController : MonoBehaviour {
             }
 
             //if current scene is AISDataCanvas
-            if (SceneManager.GetSceneAt(i).name == "AISDataCanvas")
+            /*if (SceneManager.GetSceneAt(i).name == "AISDataCanvas")
             {
                 //Enable the Fly script
-                cameraFly.GetComponent<Fly>().enabled = true;
+                //cameraFly.GetComponent<Fly>().enabled = true;
+            }*/
+
+            //if the current scene is MapBoxAllShips
+            if (SceneManager.GetSceneAt(i).name == "MapBoxAllShips")
+            {
+                //Disable the GVRMain Camera Component
+                GvrCamera.SetActive(false);
             }
 
-            if (SceneManager.GetSceneAt(i).name == "MapBox")
+            if (SceneManager.GetSceneAt(i).name == "ScenarioMenu")
             {
-                //Enable the Fly script
-                cameraFly.SetActive(false);
+                //Enable the GVRMain Camera Component
+                GvrCamera.SetActive(true);
+           
             }
 
 
