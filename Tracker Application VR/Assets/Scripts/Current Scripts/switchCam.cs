@@ -3,10 +3,14 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class switchCam : MonoBehaviour {
+public class switchCam : MonoBehaviour
+{
 
     public Camera[] cameras;
     private int currentCameraIndex;
+
+    private float nextSwap = 4.0F;
+    private float realTime = 0.0F;
 
     // Use this for initialization
     void Start()
@@ -23,17 +27,20 @@ public class switchCam : MonoBehaviour {
         if (cameras.Length > 0)
         {
             cameras[0].gameObject.SetActive(true);
-         
+
         }
     }
 
     // Update is called once per frame
     void Update()
     {
+
+        realTime = realTime + Time.deltaTime;
+
         //If the c button is pressed, switch to the next camera
         //Set the camera at the current index to inactive, and set the next one in the array to active
         //When we reach the end of the camera array, move back to the beginning or the array.
-        if (Input.GetButtonDown("Fire1"))
+        if (Input.GetButton("Fire1") && realTime > nextSwap)
         {
             currentCameraIndex++;
             Debug.Log("C button has been pressed. Switching to the next camera");
@@ -41,15 +48,22 @@ public class switchCam : MonoBehaviour {
             {
                 cameras[currentCameraIndex - 1].gameObject.SetActive(false);
                 cameras[currentCameraIndex].gameObject.SetActive(true);
-       
+
+                
+                realTime = 0.0F;
             }
             else
             {
                 cameras[currentCameraIndex - 1].gameObject.SetActive(false);
                 currentCameraIndex = 0;
                 cameras[currentCameraIndex].gameObject.SetActive(true);
+
                
+                realTime = 0.0F;
             }
+
+           
+            realTime = 0.0F;
         }
     }
 }

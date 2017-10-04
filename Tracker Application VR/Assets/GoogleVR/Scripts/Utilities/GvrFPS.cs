@@ -36,7 +36,7 @@ public class GvrFPS : MonoBehaviour {
   private string fpsText;
   private float fps = 60;
 
-  public Color textColor = Color.white;
+  public Color textColor = Color.green;
 
   void LateUpdate() {
     float deltaTime = Time.unscaledDeltaTime;
@@ -45,7 +45,8 @@ public class GvrFPS : MonoBehaviour {
     fps = Mathf.Lerp(fps, currentFPS, interp);
     float msf = MS_PER_SEC / fps;
     fpsText = string.Format(DISPLAY_TEXT_FORMAT, msf, fps);
-  }
+    //fpsText = string.Format(DISPLAY_TEXT_FORMAT, fps);
+    }
 
   void OnGUI() {
     if (guiLabelStyle == null) {
