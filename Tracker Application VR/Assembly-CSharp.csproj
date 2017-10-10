@@ -441,6 +441,7 @@
      <Compile Include="Assets\Scripts\Current Scripts\LevelLoader.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\RasterMap.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\ShipPath.cs" />
+     <Compile Include="Assets\Scripts\Current Scripts\TriggerSound.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\gameController.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\loadAllAPIData.cs" />
      <Compile Include="Assets\Scripts\Current Scripts\switchCam.cs" />
