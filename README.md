@@ -1,6 +1,6 @@
-# Project Title
+# Maritime: Ship Tracker in VR
 
-One Paragraph of project description goes here
+Maritime: Tracker in VR is a Virtual Reality app that has been developed to visualise a range of AIS data including ship positions, static and dynamic voyages and historical movements. The application will be used for tracking purposes and can be accessed by users on Android devices with a Virtual Reality (VR) headset. The user is able to select a scenario from a playlist to view. While viewing a scenario a user can view ships, their AIS Data and the ship's present and historical movements. The application connects the device to the web server and retrieves AIS data to display the ships in the chosen playlist and scene. 
 
 ## Getting Started
 
@@ -8,10 +8,25 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-What things you need to install the software and how to install them
+You need to have your Android development environment set up before testing our Unity application on your Android device. Setting up your Android development environment involves the following steps:
 
 ```
-Give examples
+1. download Unity5.6.2f1
+```
+```
+2. Download and install the * [Java JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
+```
+```
+first downloading Unity5.6.2f1
+```
+```
+first downloading Unity5.6.2f1
+```
+```
+first downloading Unity5.6.2f1
+```
+```
+first downloading Unity5.6.2f1
 ```
 
 ### Installing
