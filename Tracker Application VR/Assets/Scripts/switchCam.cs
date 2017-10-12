@@ -10,8 +10,8 @@ public class switchCam : MonoBehaviour
     private int currentCameraIndex;
 
     //used for trigger delay
-    private float nextSwap = 4.0F;
-    private float realTime = 0.0F;
+    private float nextSwap = 5.0F;
+    public static float realTime = 0.0F;
 
     // Use this for initialization
     void Start()
@@ -44,10 +44,12 @@ public class switchCam : MonoBehaviour
         if (Input.GetButton("Fire1") && realTime > nextSwap)
         {
             currentCameraIndex++;
-            Debug.Log("C button has been pressed. Switching to the next camera");
+            Debug.Log("Screen has been touched. Switching to the next camera");
             if (currentCameraIndex < cameras.Length)
             {
+                //camera at [index -1] is disabled
                 cameras[currentCameraIndex - 1].gameObject.SetActive(false);
+                //while [index] is enabled
                 cameras[currentCameraIndex].gameObject.SetActive(true);
 
                 //Time gets reset
@@ -66,5 +68,22 @@ public class switchCam : MonoBehaviour
            
             realTime = 0.0F;
         }
+
+       
     }
+
+    /*gui for displaying the time stamp of when tthe trainee can swap to another ship (every 5 seconds)
+     * and Time Stamp for ship path
+    
+    void OnGUI()
+    {
+        String Time = "Time Stamp for next ship switch";
+
+        //Float to String conversion
+        String timeString = String.Format("{0:0,0.0000000}", realTime);
+
+        //TextAreas
+        Time = GUI.TextArea(new Rect(10, 10, 225, 25), Time, 200);
+        timeString = GUI.TextArea(new Rect(10, 50, 125, 25), timeString, 200);
+    }*/
 }
