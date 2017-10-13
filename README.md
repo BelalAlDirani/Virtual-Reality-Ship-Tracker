@@ -8,7 +8,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 ### Prerequisites
 
-You need to have a Google Cardboard (or any other similar headset), Android device (Recommend runnings version Lollipop or higher), Computer running Windows and your Android development environment set up before testing our Unity application on your Android device. Setting up your Android development environment involves the following steps:
+You need to have a Google Cardboard (or any other similar headset), Android device (Recommend running version Lollipop or higher), Computer running Windows and your Android development environment set up before testing our Unity application on your Android device. Setting up your Android development environment involves downloading these files:
 
 * [UNITY](https://unity3d.com/get-unity/download/archive)
 * [JDK](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)
@@ -16,7 +16,7 @@ You need to have a Google Cardboard (or any other similar headset), Android devi
 
 ### Installing
 
-A step by step series of examples that tell you have to get a development env running
+A step by step series of examples that tell you have to get a development environment running
 
 1. Download Unity5.6.2f1 making sure to download "Android Build Support" through the Unity Download Assistant.
 2. Download and install the Java JDK
@@ -24,8 +24,8 @@ A step by step series of examples that tell you have to get a development env ru
 4. Either clone the Repository to a Folder on the Desktop and/or download the zip file adn unzip it to the Desktop
 5. Open Unity and click the "Open" Tab, find where the repository is and click on the "Tracker Application VR" folder
 6. Unity should now be building the Application for testing
-7. To make sure the Android Environemnt is setup go into Unity Preferences found in (Edit > Preferences> External Tools) to make sure the JDK and SDK are installed
-8. Within Unity, configure Mapbox Acces by going to (Mapbox > Configure Access), and put in the code found in Assets/StreamingAssets/MapboxAccess.text
+7. To make sure the Android Environement is setup go into Unity Preferences found in (Edit > Preferences> External Tools) to make sure the JDK and SDK are installed
+8. Within Unity, configure Mapbox Acces by going to (Mapbox > Configure Access) located at the top of Unity, and put in the code found in Assets/StreamingAssets/MapboxAccess.text
 9. Application is now setup for Deployment and testing
 
 
@@ -33,15 +33,15 @@ A step by step series of examples that tell you have to get a development env ru
 
 Running tests are difficult for VR development, in Unity itself, you can go ahead and test the application by:
 
-* Clicking on the play button when VRMain and only VRmain is inside the Hierarchy tab, there you can see the Game view as well as the Console for testing and debugging (for the better results Deployment of the Application then testing using an Android device and a headset is more beneficial)
+* Clicking on the play button when VRMain and only VRMain is inside the Hierarchy tab, there you can see the Game view as well as the Console for testing and debugging (for the better results Deploy of Application to an Android device then tes using a headset)
 
 ## Deployment
 
 1. Within Unity, open up build Settings and the top menu (File > Build Settings).
 2. Click Android from the list of platforms on the left and choose Switch Platform at the bottom of the window (may take awhile to change) Making sure all 8 scenes, which are found in Assets/Scenes are selected and are in the "Scenes in Build", this is a very crucial step
 3. Then connect your android device to the Computer making sure "debugging mode is ON" 
-4. Back in Unity click on "Player Settings", and again making sure under the "Otther Settings" tab has Cardboard inside Virtual Reality SDK's section.
-5. Finally, click on "Build and Run", saving th Application as an .apk adn installing it onto your device.
+4. Back in Unity click on "Player Settings", and again making sure under the "Other Settings" tab has Cardboard inside Virtual Reality SDK's section.
+5. Finally, click on "Build and Run", saving th Application as an .apk and installing it onto your device.
 
 ## Built With
 
