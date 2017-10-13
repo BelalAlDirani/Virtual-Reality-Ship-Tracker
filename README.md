@@ -55,7 +55,7 @@ We use Player Settings inside Unity for versioning.
 
 ## Authors
 
-* **Belal Dirani** - *Inital Work* - [ShipTrackerVR](https://github.com/BelalAlDiran)
+* **Belal Dirani** - *Inital Work* - [ShipTrackerVR](https://github.com/BelalAlDirani)
 * **Alisha Brown** - *Intial Work* - [ShipTrackerVR](https://github.com/leeshbrown)
 
 ## Acknowledgments
